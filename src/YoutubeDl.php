@@ -187,7 +187,7 @@ class YoutubeDl
             }
         }
 
-        return $this->setEntities(trim($process->getOutput()))
+        return $this->setEntities(trim($process->getOutput()));
     }
     
     /**
